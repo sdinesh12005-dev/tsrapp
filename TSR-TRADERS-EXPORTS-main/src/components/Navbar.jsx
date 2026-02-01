@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/logo-transparent.png';
 import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-white shadow-md sticky top-0 z-50">
+        <nav className="bg-gray-100 shadow-md sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between h-20">
+                <div className="flex justify-between h-28">
                     <div className="flex items-center">
                         <div className="flex-shrink-0 flex items-center">
-                            <img className="h-16 w-auto" src={logo} alt="TSR Traders" />
+                            <img className="h-24 w-auto" src={logo} alt="TSR Traders" />
                             <div className="ml-3">
                                 <h1 className="text-xl font-bold text-tsr-blue-dark leading-none">TSR TRADERS</h1>
                                 <p className="text-xs text-tsr-blue-light font-medium tracking-wider">& EXPORTS</p>
