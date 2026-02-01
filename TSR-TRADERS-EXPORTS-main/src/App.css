@@ -1,0 +1,4 @@
+/* Global styles or specific overrides can go here */
+html {
+  scroll-behavior: smooth;
+}
